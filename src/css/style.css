@@ -1,0 +1,165 @@
+body {
+  font-family: Ubuntu, sans-serif; }
+  body h2 {
+    margin-top: 5px;
+    color: #353535;
+    font-size: 4rem;
+    border-left: 1rem solid #F2732B;
+    padding-left: 1rem; }
+
+.whathsapp {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  z-index: 300;
+  background-color: #F2732B;
+  padding: 1rem;
+  display: flex;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 8px -3px rgba(0, 0, 0, 0.63);
+  box-shadow: 5px 5px 8px -3px rgba(0, 0, 0, 0.63); }
+  .whathsapp i {
+    color: #fcfcfc;
+    font-size: 3rem; }
+  .whathsapp p {
+    display: none; }
+
+header {
+  height: 75vh; }
+  header .carousel img {
+    margin-top: 85px;
+    height: 75vh;
+    display: flex;
+    align-items: center; }
+
+.carousel-caption {
+  bottom: 20%;
+  background-color: rgba(53, 53, 53, 0.7); }
+  .carousel-caption h5 {
+    font-size: 3rem;
+    color: #fcfcfc; }
+  .carousel-caption p {
+    color: #fcfcfc;
+    font-size: 1.5rem; }
+  .carousel-caption button {
+    width: 80%;
+    height: 3rem; }
+
+.navbar-nav {
+  margin-left: auto;
+  padding-right: 5%;
+  align-items: center; }
+  .navbar-nav .contato {
+    background-color: #F2732B;
+    width: 6rem;
+    padding: .2rem;
+    border-radius: 5%;
+    text-align: center; }
+    .navbar-nav .contato .nav-link {
+      color: #fcfcfc; }
+    .navbar-nav .contato .nav-link:hover {
+      color: #fcfcfc; }
+  .navbar-nav .contato:hover {
+    background-color: #dc580e; }
+
+.logo {
+  max-width: 100px; }
+
+#sobre {
+  margin-top: 6rem; }
+  #sobre img {
+    width: 90%;
+    z-index: -300; }
+  #sobre h3 {
+    color: #F8B925;
+    font-size: 2rem; }
+  #sobre p {
+    font-family: Lora;
+    font-size: 1.2rem; }
+
+#servicos {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  height: 65vh;
+  background-color: #F2732B; }
+  #servicos h2 {
+    margin: 0;
+    border-left: 1rem #fcfcfc solid;
+    color: #fcfcfc; }
+  #servicos h5 {
+    color: #fcfcfc; }
+  #servicos i {
+    margin-bottom: 5px;
+    color: white;
+    font-size: 4rem; }
+  #servicos p {
+    text-transform: lowercase;
+    color: #353535;
+    line-height: 1.2rem;
+    font-family: Lora; }
+
+@media (max-width: 800px) {
+  .whathsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    width: 100%;
+    background-color: #6ab363;
+    margin: 0;
+    text-align: center; }
+    .whathsapp i {
+      margin-top: 1rem; }
+    .whathsapp a {
+      color: #fcfcfc; }
+    .whathsapp p {
+      display: block; }
+
+  header {
+    height: 35vh; }
+    header .carousel img {
+      height: 35vh;
+      display: flex;
+      align-items: center; }
+
+  .carousel-caption {
+    display: block;
+    background-color: rgba(53, 53, 53, 0.7); }
+    .carousel-caption h5 {
+      font-size: 1rem;
+      color: #fcfcfc; }
+    .carousel-caption p {
+      color: #fcfcfc;
+      font-size: .8rem; }
+    .carousel-caption button {
+      width: 80%;
+      height: 3rem;
+      font-size: .9rem; }
+
+  #sorbe img {
+    width: 500px; }
+  #sorbe h3 {
+    color: #F8B925;
+    font-size: 2rem; }
+  #sorbe p {
+    font-family: Lora;
+    font-size: 1.2rem; }
+
+  #servicos {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    height: 100%;
+    background-color: #F2732B; } }
+#apolice {
+  height: 50vh; }
+  #apolice p {
+    color: #353535;
+    font-family: Lora; }
+
+/*# sourceMappingURL=style.css.map */

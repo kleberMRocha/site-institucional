@@ -1,0 +1,35 @@
+//color
+
+$primary: #F2732B;
+$secondary:#F8B925;
+$gray:#353535;
+$white:#fcfcfc;
+$green:#6ab363;
+
+//font Family
+
+$lora: #{'Lora'};
+$Ubuntu:#{'Ubuntu'};
+
+body{
+    font-family: $Ubuntu, sans-serif;
+
+        h2{
+            margin-top: 5px;
+            color: $gray;
+            font-size: 4rem;
+            border-left: 1rem solid $primary;
+            padding-left: 1rem;
+        }
+           
+        
+    
+}
+
+
+
+@import './header/header.scss';
+@import './sobre/sobre.scss';
+@import './servicos/servicos.scss';
+@import './mediaQuery/mobile.scss';
+@import './apolice/apolice.scss';

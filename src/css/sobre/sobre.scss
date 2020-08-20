@@ -1,0 +1,16 @@
+#sobre{
+   margin-top: 6rem;
+    img{
+        width: 90%;
+        z-index: -300;
+    }
+    h3{
+        color: $secondary;
+        font-size: 2rem;
+    }
+    p{
+        font-family: $lora;
+        font-size: 1.2rem;
+    }
+
+}

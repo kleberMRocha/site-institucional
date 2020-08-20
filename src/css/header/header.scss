@@ -1,0 +1,88 @@
+.whathsapp{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    z-index: 300;
+    background-color: $primary;
+    padding: 1rem;
+    display: flex;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 8px -3px rgba(0,0,0,0.63); 
+    box-shadow: 5px 5px 8px -3px rgba(0,0,0,0.63);
+ 
+   i{
+       
+       color:$white;
+       font-size: 3rem;
+   }
+   p{
+       display: none;
+   }
+}
+
+header{
+
+    height: 75vh;
+  
+    .carousel img{
+        margin-top:85px;
+        height:75vh;
+        display: flex;
+        align-items: center;
+        
+    } 
+
+    
+
+}
+
+.carousel-caption{
+    bottom: 20%;
+    background-color:rgba($gray, .7 );
+    h5{
+        font-size: 3rem;
+        color: $white;
+    }
+    p{
+        color: $white;
+        font-size: 1.5rem;
+    }
+    button{
+        width: 80%;
+        height: 3rem;
+    }
+
+ }
+
+.navbar-nav{
+    margin-left: auto;
+    padding-right: 5%;
+    align-items: center;
+    .contato{
+        background-color: $primary;
+        width: 6rem;
+        padding: .2rem;
+        border-radius: 5%;
+        text-align: center;
+        .nav-link{
+            color: $white;
+        }.nav-link:hover{
+            color: $white;
+        }
+    }.contato:hover{
+        background-color: darken($primary, 10%);
+
+    }
+    
+}
+
+
+.logo{
+    max-width: 100px;
+}
