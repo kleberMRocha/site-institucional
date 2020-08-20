@@ -17,9 +17,10 @@ body{
         h2{
             margin-top: 5px;
             color: $gray;
-            font-size: 4rem;
+            font-size: 3rem;
             border-left: 1rem solid $primary;
             padding-left: 1rem;
+            
         }
            
         
@@ -31,5 +32,7 @@ body{
 @import './header/header.scss';
 @import './sobre/sobre.scss';
 @import './servicos/servicos.scss';
-@import './mediaQuery/mobile.scss';
 @import './apolice/apolice.scss';
+@import './obras/obras.scss';
+@import './parceiros/parceiros.scss';
+@import './mediaQuery/mobile.scss';
