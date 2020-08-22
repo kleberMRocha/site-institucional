@@ -54,6 +54,10 @@ header {
     width: 80%;
     height: 3rem; }
 
+nav {
+  -webkit-box-shadow: 0px 16px 20px -16px rgba(0, 0, 0, 0.66);
+  box-shadow: 0px 16px 20px -16px rgba(0, 0, 0, 0.66); }
+
 .navbar-nav {
   margin-left: auto;
   padding-right: 5%;
@@ -117,6 +121,18 @@ header {
   #apolice h2 {
     margin: 0;
     color: #fcfcfc; }
+  #apolice h3 {
+    margin: 0;
+    color: #fcfcfc; }
+  #apolice h4 span {
+    font-size: 3rem; }
+  #apolice .numeros {
+    margin: 0;
+    color: #fcfcfc;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    justify-content: space-between; }
 
 #obras {
   height: 100%; }
@@ -213,6 +229,52 @@ header {
   #parceiros h2 {
     color: #fcfcfc; }
 
+footer {
+  height: 50vh;
+  background-color: #F2732B;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column; }
+  footer a {
+    color: #fcfcfc;
+    transition: color .5s; }
+  footer a:hover {
+    text-decoration: none;
+    color: #c9c9c9; }
+  footer p {
+    color: #fcfcfc;
+    line-height: 1rem; }
+  footer span {
+    font-size: 2rem;
+    color: #fcfcfc; }
+
+#facebook {
+  color: #fcfcfc; }
+
+#wts {
+  color: #fcfcfc; }
+
+.footer-nav ul {
+  flex-direction: row;
+  justify-content: center; }
+  .footer-nav ul li {
+    margin-left: 1rem;
+    font-size: .7rem;
+    border-right: #fcfcfc 2px solid;
+    padding-right: 10px;
+    line-height: 2px; }
+
+#contato {
+  height: 90vh; }
+  #contato button {
+    width: 100%; }
+  #contato .contato-bg {
+    background-image: url("../img/contact-us-2993000_1920.jpg");
+    background-size: cover;
+    height: 70vh; }
+
 @media (max-width: 800px) {
   .whathsapp {
     display: flex;
@@ -272,6 +334,12 @@ header {
     height: 100%; }
 
   #obras .destaques img {
-    max-width: 90%; } }
+    max-width: 90%; }
+
+  .contato-bg {
+    display: none; }
+
+  footer .footer-nav ul {
+    flex-wrap: wrap; } }
 
 /*# sourceMappingURL=style.css.map */

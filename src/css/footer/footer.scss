@@ -1,0 +1,61 @@
+
+footer{
+    height:50vh;
+    background-color: $primary;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+    a{
+        color: $white;
+        transition: color .5s;
+        
+    }a:hover{
+        text-decoration: none;
+        color: darken($white,20);
+    }
+
+    p{
+        color: $white;
+        line-height: 1rem;
+      
+    }
+
+    span{
+        
+            font-size:2rem;
+            color: $white; 
+            
+    }
+
+    
+    
+}
+
+#facebook{
+    color: $white;
+}
+
+#wts{
+    color: $white;
+}
+
+.footer-nav{
+    ul{
+        flex-direction: row;
+        justify-content: center;
+        li{
+            margin-left: 1rem;
+            font-size: .7rem;
+            border-right: $white 2px solid;
+            padding-right: 10px;
+            line-height: 2px;
+        }
+            
+        
+
+    }
+
+}
