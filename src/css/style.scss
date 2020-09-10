@@ -11,6 +11,11 @@ $green:#6ab363;
 $lora: #{'Lora'};
 $Ubuntu:#{'Ubuntu'};
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body{
     font-family: $Ubuntu, sans-serif;
 
@@ -23,9 +28,10 @@ body{
             
         }
            
-        
     
 }
+
+
 
 
 
